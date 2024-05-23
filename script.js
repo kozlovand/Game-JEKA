@@ -2,7 +2,7 @@ const crab = document.getElementById('crab');
 const cactus = document.getElementById('cactus');
 const start = document.getElementById('start');
 
-document.addEventListener("keydown",function(event) {
+document.addEventListener("keypress",function(event) {
   jump();
 });
 

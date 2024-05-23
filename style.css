@@ -73,6 +73,9 @@ body {
 }
 
 .btn-start {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   position: absolute;
   width: 100px;
   height: 100px;
