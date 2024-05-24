@@ -5,6 +5,9 @@ const start = document.getElementById('start');
 document.addEventListener("keypress",function(event) {
   jump();
 });
+document.addEventListener("mousedown",function(event) {
+  jump();
+});
 
 function jump() {
    if (crab.classList != "jump") {
